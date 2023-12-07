@@ -36,7 +36,16 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff1d2630),
+      appBar: AppBar(
+        backgroundColor: Color(0xff1d2630),
+          elevation: 0,
+          title: Text(
+        'Calculator',style: TextStyle(
+            fontWeight: FontWeight.w900,
+        fontSize: 20,
+        color: Colors.white,
+      ),)),
+      backgroundColor: const Color(0xff1d2630),
       body: Column(
         children: [
           SizedBox(

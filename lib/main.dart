@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
         splash: Image.asset(
           'assets/casio.jpg',
         ),
-        duration: 3000,
-        backgroundColor: Color(0xff1d2630),
-        splashIconSize: 120,
+        duration: 2000,
+        backgroundColor: const Color(0xff1d2630),
+        splashIconSize: 150,
         splashTransition: SplashTransition.decoratedBoxTransition,
       ),
     );
